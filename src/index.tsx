@@ -1,11 +1,11 @@
 import ReactDOM from "react-dom";
-import UserSearch from "./state/UserSearch";
+import UserSearch from "./classes/UserSearch";
 
 const App = () => {
     return (
         <div>
             Hi there!
-            <UserSearch />
+            <UserSearch users={[{name: 'hello', age: 20}, {name: 'world', age: 21}, ]} />
         </div>
     );
 }
